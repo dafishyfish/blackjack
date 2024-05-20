@@ -9,7 +9,7 @@ import random
 
 # Define a single deck of cards
 suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
-ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+ranks = ['2', '3', '4', '5', '6', '7', '8', '9', 'J', 'Q', 'K', 'A']
 single_deck = [(rank, suit) for suit in suits for rank in ranks]
 
 # Function to create a multi-deck shoe
@@ -106,5 +106,5 @@ def play_blackjack(num_decks):
         
         
   # Run the game with 6 decks
-play_blackjack(6)
+play_blackjack(8)
       
